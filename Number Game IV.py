@@ -1,17 +1,3 @@
-# import random
-import sys
-
-# sys.stdout = open('test.txt','w')
-# b = 1000
-# N = [random.randint(1,b-1) for i in range (1,b)]
-# # random.shuffle(N)
-# print(b)
-# print(' '.join(str(i) for i in N))
-#
-sys.stdin = open('C:\\Pahan\\Notepads\\test.txt')
-# sys.stdout = open('test2.txt','w')
-
-
 B = int(input()) - 1
 N = [int(i) - 1 for i in input().split()]
 l = {}
